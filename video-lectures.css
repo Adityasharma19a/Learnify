@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f2fd;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #42a5f5, #1e88e5);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+header nav a:hover {
+    background-color: #1565c0;
+}
+
+.videos {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.videos h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #42a5f5;
+}
+
+.video-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.video {
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.video:hover {
+    transform: scale(1.05);
+}
+
+video {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
